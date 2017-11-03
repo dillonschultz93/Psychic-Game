@@ -1,0 +1,72 @@
+/* Typography */
+/*----------------------------------------------------------------*/
+
+/*Rozha One used for the header and Karla used for the body*/
+@import url('https://fonts.googleapis.com/css?family=Karla|Rozha+One');
+
+
+.game-title {
+    text-align: center;
+    color: #5a5a5a;
+    font-family: 'Rozha One', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 5em;
+    letter-spacing: .1em;
+}
+
+.game-prompt {
+    text-align: center;
+    color: #929292;
+    font-family: 'Karla', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: .06em;
+}
+
+.guess-count {
+    text-align: center;
+    color: #fff;
+    font-family: 'Karla', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.guess-made {
+    text-align: center;
+    color: #5a5a5a;
+    font-family: 'Karla', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+.score {
+    text-align: center;
+    color: #000;
+    font-family: 'Karla', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.15em;
+}
+
+/*Styles*/
+/*----------------------------------------------------------------*/
+
+.guess-count {
+    background-color: #fc435d;;
+    width: 25%;
+    margin: 0 auto;
+    padding: .5em 0em;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.guess-made {
+   width: 100%;
+}
+
+.mb{
+    margin-bottom: 5px;
+}
+
+.score-hr {
+    width: 50%;
+}
