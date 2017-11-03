@@ -70,3 +70,13 @@
 .score-hr {
     width: 50%;
 }
+
+/*Media Queries*/
+/*----------------------------------------------------------------*/
+
+@media only screen and (max-width: 800px) {
+    .guess-count {
+        width: 30%;
+        padding: .5em .5em;
+    }
+}
