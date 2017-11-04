@@ -16,6 +16,8 @@ var losses = 0;
 var attemptsLeft = 5;
 
 //-------------------------------------------------------------------------------------------------
+//When the user enters a key the function is run below.
+
 document.onkeyup = function (event) {
 
     // User input
@@ -30,6 +32,7 @@ document.onkeyup = function (event) {
     //Score Keeping
     if (userGuess === computerGuess) {
         wins++;
+        alert("Good guess!");
     } else {
         attemptsLeft--;
     }
@@ -37,6 +40,7 @@ document.onkeyup = function (event) {
     if (attemptsLeft === 0) {
         losses++;
         attemptsLeft = 5;
+        alert("You lose. Better luck next!");
     }
 
     // Writes to index.html the score keeping variables
