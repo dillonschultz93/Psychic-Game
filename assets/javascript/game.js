@@ -13,7 +13,7 @@ var computerChoice = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l"
 // Score keeping
 var wins = 0;
 var losses = 0;
-var attemptsLeft = 5;
+var attemptsLeft = 10;
 
 //-------------------------------------------------------------------------------------------------
 //When the user enters a key the function is run below.
@@ -33,13 +33,14 @@ document.onkeyup = function (event) {
     if (userGuess === computerGuess) {
         wins++;
         alert("Good guess!");
+        attemptsLeft = 10;
     } else {
         attemptsLeft--;
     }
 
     if (attemptsLeft === 0) {
         losses++;
-        attemptsLeft = 5;
+        attemptsLeft = 10;
         alert("You lose. Better luck next!");
     }
 
